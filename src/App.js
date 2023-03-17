@@ -18,16 +18,16 @@ function App() {
       
       <div className='row pt-2 pb-2'>
         <div className='col-3' >
-          <ViewResult val="AC"/>
+          <ViewResult val="AC"  color="danger"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="+/-"/>
+          <ViewResult val="+/-"  color="warning"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="%"/>
+          <ViewResult val="%"  color="warning"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="/"/>
+          <ViewResult val="/"  color="warning"/>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ function App() {
           <ViewResult val="9"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="X"/>
+          <ViewResult val="X"  color="warning"/>
         </div>
       </div>
 
@@ -57,7 +57,7 @@ function App() {
           <ViewResult val="6"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="-"/>
+          <ViewResult val="-"  color="warning"/>
         </div>
       </div>
 
@@ -72,7 +72,7 @@ function App() {
           <ViewResult val="3"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="+"/>
+          <ViewResult val="+"  color="warning"/>
         </div>
       </div>
       
@@ -81,10 +81,10 @@ function App() {
           <ViewResult val="0"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="."/>
+          <ViewResult val="."  color="warning"/>
         </div>
         <div className='col-3'>
-          <ViewResult val="="/>
+          <ViewResult val="="  color="warning"/>
         </div>
         
       </div>
